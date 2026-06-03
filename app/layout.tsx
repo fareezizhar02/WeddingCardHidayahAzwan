@@ -46,7 +46,7 @@ export const metadata: Metadata = {
       description:
         'Dengan penuh kesyukuran, kami menjemput anda ke majlis perkahwinan Hidayah & Azwan',
     url: 'https://lakar-hidayahazwan.vercel.app',
-    siteName: 'Walimatulurus Hidayah & Azwan',
+    siteName: 'Majlis Kesyukuran Hidayah & Azwan',
     images: [
       {
         url: 'https://lakar-hidayahazwan.vercel.app/images/thumbnail.png',

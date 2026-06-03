@@ -62,7 +62,7 @@ export default function CoverPage() {
       <div className="relative z-30 h-full w-full flex items-center justify-center px-6">
         <div className="flex flex-col items-center text-center w-full max-w-[380px]">
 
-          {/* WALIMATULURUS */}
+          {/* Majlis Kesyukuran */}
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ export default function CoverPage() {
             className="font-montserrat uppercase tracking-[0.3em] text-amber-800 text-[13px] font-semibold"
             style={{ marginBottom: "clamp(12px, 3vw, 20px)" }}
           >
-            Walimatulurus
+            MAJLIS KESYUKURAN
           </motion.p>
 
           {/* Divider line + heart */}
