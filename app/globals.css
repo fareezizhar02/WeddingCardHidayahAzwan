@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+      /* Hidayah & Azwan — Dusty Rose & Mauve theme */
+      --cream-50: 253 248 245;
+      /* warm off-white, hint pink */
+      --cream-100: 250 242 238;
+      /* soft pinkish cream */
+      --cream-200: 245 233 227;
+      /* deeper warm cream */
+  
+      --amber-50: 252 240 237;
+      /* lightest blush */
+      --amber-100: 248 224 218;
+      /* soft peach blush */
+      --amber-200: 237 204 194;
+      /* dusty rose light */
+      --amber-700: 139 90 80;
+      /* dusty mauve (ganti amber kuning) */
+      --amber-800: 110 68 60;
+      /* deep mauve brown */
+      --amber-900: 80 48 42;
+      /* darkest text brown */
+    }
+
+  /* ✅ Ensure proper scrolling on mobile */
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    /* Firefox */
+    scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
+    /* ✅ iOS smooth scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* ✅ Force scroll calculation */
+    overflow-y: scroll;
+    height: auto;
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-cream-100 text-amber-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    /* ✅ Ensure body can scroll on mobile */
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* Chrome, Edge, Safari */
+  html::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  /* REMOVE arrows completely */
+  html::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  /* For elements with scroll-minimal class */
+  .scroll-minimal::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scroll-minimal::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scroll-minimal::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  .scroll-minimal::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .font-playfair {
+    font-family: var(--font-playfair), serif;
+  }
+
+  .font-greatvibes {
+    font-family: var(--font-greatvibes), cursive;
+  }
+
+  .font-montserrat {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
