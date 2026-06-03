@@ -15,6 +15,7 @@ import AutoScrollResumeChip from "./AutoScrollResumeChip";
 import { useAutoScrollEngine } from "./useAutoScrollEngine";
 import type { SectionRefs } from "./useAutoScrollEngine";
 import WatercolorBackground from "./Background";
+import { usePageVisibilityAudio } from "./usePageVisibilityAudio";
 
 type PageType = "cover" | "music";
 
@@ -35,6 +36,8 @@ export default function InvitationPage() {
   const rsvpRef = useRef<HTMLElement | null>(null);
   const rsvpCTARef = useRef<HTMLElement>(null);
   const responsesRef = useRef<HTMLElement | null>(null);
+
+  usePageVisibilityAudio(audioRef, isPlaying, setIsPlaying);
 
   const sectionRefs: SectionRefs = useMemo(
     () => ({
