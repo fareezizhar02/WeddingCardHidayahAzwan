@@ -86,7 +86,7 @@ export default function MenghitungHariContent() {
           variants={itemVariants}
           className="font-greatvibes text-[22px] sm:text-[24px] text-stone-600"
         >
-          #SatuSyafDibelakangFareez
+          #HidayahBuatAzwan
         </motion.p>
 
         {/* Title */}
