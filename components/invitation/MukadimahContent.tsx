@@ -55,7 +55,7 @@ export default function MukadimahContent() {
           </p>
 
           <p className="font-playfair text-[18px] sm:text-[20px] text-stone-700">
-            Maimunah Mohd Yusof
+            Sekeluarga
           </p>
         </motion.div>
 
@@ -64,7 +64,7 @@ export default function MukadimahContent() {
           variants={itemVariants}
           className="font-montserrat mx-auto max-w-[520px] px-1 text-[13px] sm:text-[14px] leading-relaxed text-stone-600"
         >
-          sekeluarga menjemput
+          Dengan berbesar hati menjemput,
           <br/>
           {' '}
           <span className="font-medium text-stone-700">Dato | Datin | Tuan | Puan | Cik</span> 

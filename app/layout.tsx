@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Montserrat,Playfair_Display, Great_Vibes} from 'next/font/google';
+import { Montserrat,Playfair_Display, Alex_Brush} from 'next/font/google';
 import './globals.css';
 
 /**
@@ -29,7 +29,8 @@ const playfair = Playfair_Display({
   display: 'swap',
 })
 
-const greatVibes = Great_Vibes({
+
+const greatVibes = Alex_Brush({
   subsets: ['latin'],
   weight: ['400'],
   variable: '--font-greatvibes',
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Majlis Kesyukuran Hidayah & Azwan',
     images: [
       {
-        url: 'https://lakar-hidayahazwan.vercel.app/images/thumbnail.png',
+        url: 'https://lakar-hidayahazwan.vercel.app/images/thumbnail2.png',
         width: 1200,
         height: 630,
         alt: 'Jemputan Perkahwinan Hidayah & Azwan',
@@ -64,7 +65,7 @@ export const metadata: Metadata = {
     title: 'Jemputan Perkahwinan Hidayah & Azwan',
     description:
       'Dengan penuh kesyukuran, kami menjemput anda ke majlis perkahwinan Hidayah & Azwan.',
-    images: ['https://lakar-hidayahazwan.vercel.app/images/thumbnail.png'],
+    images: ['https://lakar-hidayahazwan.vercel.app/images/thumbnail2.png'],
   },
 };
 

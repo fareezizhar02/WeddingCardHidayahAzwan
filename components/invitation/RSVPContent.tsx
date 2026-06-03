@@ -60,7 +60,7 @@ export default function RSVPContent({ ctaRef }: RSVPContentProps) {
 
             <p className="relative z-10 font-montserrat text-[13px] sm:text-[14px] leading-relaxed text-stone-700">
               Sila sahkan kehadiran anda sebelum{' '}
-              <span className="font-semibold text-rose-700">26 Ogos 2026</span>.
+              <span className="font-semibold text-rose-700">15 Ogos 2026</span>.
               <br />
               Klik butang di bawah untuk RSVP.
             </p>
