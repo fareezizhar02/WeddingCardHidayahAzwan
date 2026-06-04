@@ -147,10 +147,10 @@ export default function MusicPlayer({ audioRef, isPlaying, onPlayPause }: MusicP
           Sedang Dimainkan
         </p>
         <h3 className="font-playfair text-[20px] sm:text-[22px] text-stone-700">
-          Terbuang Dalam Waktu
+          Menamakanmu Cinta
         </h3>
         <p className="font-montserrat text-[12px] tracking-wide text-stone-500">
-          Barasuara
+          Dato Sri Siti Nurhaliza
         </p>
       </div>
 
