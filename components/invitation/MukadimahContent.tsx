@@ -55,7 +55,7 @@ export default function MukadimahContent() {
           </p>
 
           <p className="font-playfair text-[18px] sm:text-[20px] text-stone-700">
-            Sekeluarga
+            Keluarga
           </p>
         </motion.div>
 
